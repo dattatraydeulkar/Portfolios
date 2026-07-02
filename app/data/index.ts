@@ -165,8 +165,8 @@ export const certificates: Certificate[] = [
     impact:
       "Able to improve data consistency, accuracy, and usability so AI and analytics outputs become more dependable.",
     badge: "AI Data Quality",
-    credentialHref: "https://drive.google.com/file/d/1GwZb9xczqqBcIqMico1aWOWn3LGHJKgQ/view?usp=sharing",
-    previewHref: "https://drive.google.com/thumbnail?id=1GwZb9xczqqBcIqMico1aWOWn3LGHJKgQ&sz=w1200",
+    credentialHref: "/certification/rooman-ai-data-quality-analyst.png",
+    previewHref: "/certification/rooman-ai-data-quality-analyst.png",
     details:
       "Completed AI - Data Quality Analyst certification through Rooman.",
   },
@@ -182,8 +182,8 @@ export const certificates: Certificate[] = [
     impact:
       "Strengthened ability to work with text-heavy datasets and improve downstream analytics and AI workflows.",
     badge: "Advanced NLP",
-    credentialHref: "https://drive.google.com/file/d/1HpSC-uXWWkoCxBrLW_TnBzPeWIMLHxS5/view?usp=sharing",
-    previewHref: "https://drive.google.com/thumbnail?id=1HpSC-uXWWkoCxBrLW_TnBzPeWIMLHxS5&sz=w1200",
+    credentialHref: "/certificates/ibm-advanced-nlp.pdf",
+    previewHref: "/certificates/ibm-advanced-nlp.pdf",
     details:
       "Participated in Improving Text Analytics Data Quality with Advanced NLP, issued by IBM CEP on April 22, 2025.",
   },
@@ -199,8 +199,8 @@ export const certificates: Certificate[] = [
     impact:
       "Ready to support BI workflows, analytics delivery, and AI-assisted business insight generation.",
     badge: "BI Analyst",
-    credentialHref: "https://drive.google.com/file/d/1KSq-BE0R2u0jFLXUOEsdKlF1ObJ4sGto/view?usp=sharing",
-    previewHref: "https://drive.google.com/thumbnail?id=1KSq-BE0R2u0jFLXUOEsdKlF1ObJ4sGto&sz=w1200",
+    credentialHref: "/certificates/ai-business-intelligence-analyst.pdf",
+    previewHref: "/certificates/ai-business-intelligence-analyst.pdf",
     details:
       "Completed 570+ hours of training and cleared the AI Business Intelligence Analyst assessment.",
   },

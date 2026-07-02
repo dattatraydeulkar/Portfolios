@@ -233,6 +233,7 @@ function CertificatePanel() {
 function CertificateCard({ certificate, index }: { certificate: Certificate; index: number }) {
   const accent = accents[index % accents.length];
   const previewSource = certificate.previewHref;
+  const isPdfPreview = /\.pdf$/i.test(certificate.previewHref ?? "");
   const isImagePreview =
     /\.(png|jpe?g|webp|gif|svg)$/i.test(certificate.previewHref ?? "") ||
     certificate.previewHref?.startsWith("https://drive.google.com/thumbnail");
@@ -263,6 +264,12 @@ function CertificateCard({ certificate, index }: { certificate: Certificate; ind
               width={980}
               height={520}
               className="h-44 w-full object-cover object-top"
+            />
+          ) : previewSource && isPdfPreview ? (
+            <iframe
+              src={`${previewSource}#toolbar=0&navpanes=0&scrollbar=0&view=FitH`}
+              title={`${certificate.title} certificate preview`}
+              className="h-44 w-full bg-white"
             />
           ) : (
             <div className="flex h-44 flex-col items-center justify-center bg-zinc-100 px-5 text-center text-sm font-bold text-zinc-700">
