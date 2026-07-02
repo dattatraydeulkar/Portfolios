@@ -270,7 +270,7 @@ function CertificateCard({ certificate, index }: { certificate: Certificate; ind
               src={`${previewSource}#toolbar=0&navpanes=0&scrollbar=0&view=FitH`}
               title={`${certificate.title} certificate preview`}
               scrolling="no"
-              className="pointer-events-none h-44 w-full overflow-hidden bg-white"
+              className="pointer-events-none h-[calc(11rem+24px)] w-[calc(100%+24px)] overflow-hidden bg-white"
             />
           ) : (
             <div className="flex h-44 flex-col items-center justify-center bg-zinc-100 px-5 text-center text-sm font-bold text-zinc-700">
